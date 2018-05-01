@@ -4,7 +4,7 @@ This application is based on 3 containers:
 
 - A consul container running as normal
 - An express application which registers its service with consul using `/agent/service/register` as documented 
-- A container using supervisor to run nginx and consul-template, where consul-template polls for changes in the services registered to consul
+- A container using supervisor to run nginx and consul-template, where consul-template polls for changes in the services registered to consul; consul-template reacts to changes by dynamically updating the nginx configuration in `/etc/nginx/conf.d` and reloading nginx
 
 Build
 
