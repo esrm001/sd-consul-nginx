@@ -1,0 +1,14 @@
+version: '2.3'
+services:
+  webserver:
+    image: ng-ct:latest
+    ports:
+      - '80:80'
+  consul: 
+    image: consul
+    volumes:
+      - '${PWD}/config/consul:/consul/config'
+    ports:
+      - '8500:8500'
+  svc:
+    image: test:latest

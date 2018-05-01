@@ -1,0 +1,11 @@
+{
+  "leave_on_terminate": true,
+  "watches": [
+    {
+      "type": "key",
+      "key": "svc",
+      "handler_type": "script",
+      "args": ["/bin/echo", "svcIsUp"]
+    }
+  ]
+}
