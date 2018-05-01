@@ -1,4 +1,4 @@
-= Readme
+# sd-consul-nginx
 
 This application is based on 3 containers:
 
@@ -27,7 +27,7 @@ Run
 
 == Relevant Docs
 
-# https://github.com/hashicorp/consul-template
-# https://www.consul.io/api/agent/service.html
-# http://supervisord.org/configuration.html#program-x-section-settings
-# https://github.com/hashicorp/consul-template/blob/master/examples/nginx.md
+* https://github.com/hashicorp/consul-template
+* https://www.consul.io/api/agent/service.html
+* http://supervisord.org/configuration.html#program-x-section-settings
+* https://github.com/hashicorp/consul-template/blob/master/examples/nginx.md
